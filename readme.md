@@ -2,7 +2,7 @@
 
 This is a quick project to demonstrate our [Vue + Laravel QuickAdminPanel generator](https://vue.quickadminpanel.com).
 
-![Laravel Vue.js adminpanel](https://lh3.googleusercontent.com/PgvPjYQUW6kMzODICV-R583p5-NPj6GQZSRC6lendSvwoOSb74o9o4PUthcFqPTo6reXARBO04MqFUxHzeh3=w2880-h1510-rw)
+![Laravel Vue.js adminpanel](http://webcoderpro.com/laravel-vue-demo.png)
 
 ---
 
