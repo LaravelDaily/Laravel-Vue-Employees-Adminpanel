@@ -1,0 +1,38 @@
+language: php
+sudo: required
+dist: trusty
+
+php:
+  - 7.1
+
+
+services:
+  - mysql
+
+addons:
+  apt:
+    sources:
+      - mysql-5.7-trusty
+    packages:
+      - mysql-server
+
+dist: trusty
+sudo: required
+
+before_install:
+  - mysql -e 'CREATE DATABASE homestead_test;'
+
+before_script:
+  - cp .env.testing .env
+  - composer self-update
+  - composer install --no-interaction
+  - export DISPLAY=:99.0
+  - sh -e /etc/init.d/xvfb start
+  - chmod a+x ./vendor/laravel/dusk/bin/chromedriver-linux
+  - ./vendor/laravel/dusk/bin/chromedriver-linux &
+  - cp .env.testing .env
+  - php artisan serve > /dev/null 2>&1 &
+
+script:
+  - vendor/bin/phpunit
+  - php artisan dusk
