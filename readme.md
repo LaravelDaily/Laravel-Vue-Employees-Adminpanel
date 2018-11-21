@@ -4,7 +4,7 @@ This is a quick project to demonstrate our [Vue + Laravel QuickAdminPanel genera
 
 The whole project code was completely **generated**, without customizing or changing any line of code.
 
-![Laravel Vue.js adminpanel](http://webcoderpro.com/laravel-vue-demo.png)
+![Laravel Vue.js adminpanel](https://laraveldaily.com/wp-content/uploads/2018/11/laravel-vue-demo.png)
 
 ---
 
@@ -34,3 +34,4 @@ Please use and re-use however you want.
 - Follow our [Twitter](https://twitter.com/dailylaravel) and [Blog](http://laraveldaily.com/blog)
 - Subscribe to our [newsletter with 20+ Laravel links every Thursday](http://laraveldaily.com/weekly-laravel-newsletter/)
 - Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
+- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
